@@ -11,3 +11,54 @@ Updated: 2021-11-24 12:33:02
 
 */
 
+body #page-container {
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: #062360;
+}
+a:hover {
+  font-weight: 500;
+  color: #a0c1ff;
+}
+
+.et_pb_gutters3 .et_pb_column_1_4 .et_pb_widget {
+  margin-bottom: 3px !important;
+}
+
+.et-db #et-boc .et-l .et_pb_widget ul li a:hover {
+  color: #6b2020;
+}
+
+.et_pb_menu--style-left_aligned.et_pb_text_align_right .et_pb_menu__wrap {
+  gap: 20px;
+  justify-content: center;
+}
+
+.et_pb_fullwidth_menu .et_pb_menu__menu nav ul,
+.et_pb_menu .et_pb_menu__menu {
+  gap: 10px;
+}
+
+.et_pb_column {
+  margin-bottom: 5px;
+}
+@media screen and (max-width: 980px) {
+  .et_pb_column {
+    margin-bottom: 5px;
+  }
+  .et-db
+    #et-boc
+    .et-l
+    .et_pb_menu--style-left_aligned.et_pb_text_align_right
+    .et_pb_menu__wrap {
+    justify-content: center !important;
+  }
+}
+@media screen and (min-width: 1080px) {
+  .et_pb_menu--style-left_aligned.et_pb_text_align_right .et_pb_menu__wrap {
+    justify-content: flex-end;
+  }
+}
